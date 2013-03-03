@@ -1,0 +1,28 @@
+<snippet>
+        <content><![CDATA[tQuery.registerStatic('${1:name}', function(opts){
+	// handle arguments polymorphism
+	
+	// handle arguments default value
+	opts	= tQuery.extend(opts, {
+	});
+	// handle arguments sanity check
+	console.assert( opts.url, "url MUST be specified" )
+
+	${2:// your code goes here}
+});
+
+/**
+ * explicit destructor
+ */
+tQuery.${1}.prototype.destroy	= function(){
+	
+};
+
+tQuery.registerStatic('create${1}', function(opts){
+	return new tQuery.${1}(opts)
+});
+
+]]></content>
+        <tabTrigger>tqueryplugin</tabTrigger>
+        <scope>source.js</scope>
+</snippet>
