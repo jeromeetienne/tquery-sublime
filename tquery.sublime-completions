@@ -1,0 +1,12 @@
+{
+        "scope": "source.js,source.js.embedded.html,source.coffee",
+        "version": "r56",
+        "completions":
+        [
+              "tQuery",
+              
+              { "trigger": "tQuery.createTorus", "contents": "tQuery.createTorus().addTo(${1:world})$0" }
+              { "trigger": "tQuery.createTorusKnot", "contents": "tQuery.createTorusKnot().addTo(${1:world})$0" }
+              { "trigger": "tQuery.createCube", "contents": "tQuery.createCube().addTo(${1:world})$0" }
+        ]
+}
