@@ -1,0 +1,9 @@
+<snippet>
+        <content><![CDATA[// Make each instances pluginable
+tQuery.pluginsInstanceOn(tQuery.${1:classname});
+
+${2}
+]]></content>
+        <tabTrigger>tqueryPlugInst</tabTrigger>
+        <scope>source.js</scope>
+</snippet>

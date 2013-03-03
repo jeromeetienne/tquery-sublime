@@ -1,0 +1,11 @@
+<snippet>
+        <content><![CDATA[/**
+ * inherit from tQuery.${2:parent}
+*/
+tQuery.inherit(tQuery.${1:child}, tQuery.${2:parent});
+
+${3}
+]]></content>
+        <tabTrigger>tqueryinherit</tabTrigger>
+        <scope>source.js</scope>
+</snippet>

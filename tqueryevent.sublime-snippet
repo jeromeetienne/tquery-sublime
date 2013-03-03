@@ -1,0 +1,9 @@
+<snippet>
+        <content><![CDATA[// make it eventable
+tQuery.MicroeventMixin(tQuery.${1:classname}.prototype)
+
+${2}
+]]></content>
+        <tabTrigger>tqueryevent</tabTrigger>
+        <scope>source.js</scope>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+        <content><![CDATA[// make it pluginable as static
+tQuery.pluginsStaticOn(tQuery.${1:classname});
+
+${2}
+]]></content>
+        <tabTrigger>tqueryplugsta</tabTrigger>
+        <scope>source.js</scope>
+</snippet>
